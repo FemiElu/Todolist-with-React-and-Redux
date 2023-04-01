@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1440px;
+  width: 800px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+.container {
+     max-width: 1440px;
+     width:100%; 
+     height: 70%;
+     overflow: hidden;
+     background-color: #499CC1;
+}
+
+.custom-form{
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.input-and-btn{
+  display: flex;
+}
+
+.todo-box{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-box .content{
+  display: flex;
+}
+
+.todo-box .content p{
+  margin-top: -6px;
+  margin-left: 6px;
+}
+
+.todo-box span{
+  margin: 0 5px;
+}
+
+.delete-all{
+  width: 400px;
+}
+
+.actions-box{
+  cursor: pointer;
+}
+
+.back-btn{
+  margin-top: 5px;
+  width: 100%;
+}
+
+.form-control:focus{
+  border: 1px solid #f0925b
+}
